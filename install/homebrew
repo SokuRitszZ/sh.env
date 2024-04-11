@@ -1,0 +1,5 @@
+# manually add domain map ip in DNS
+sudo echo "199.232.28.133 raw.githubusercontent.com" >> /etc/hosts
+
+# install cmd
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
